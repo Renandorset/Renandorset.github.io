@@ -10,8 +10,19 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
-
+@media (min-width: 768px){
     body{ padding: 4% 20% }
+}
+
+@media (max-width: 767px ){
+    body { padding: 8% 5% }
+}
+body { background-color: antiquewhite; }
+h1 {color: brown; }
+h2 {color: brown;}
+ p { color: #090a15 }
+h3 { color: brown; }
+a { color: brown; }
 h1{
     font-size: 84px;
     text-align: center;

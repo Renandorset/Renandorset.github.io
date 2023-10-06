@@ -10,7 +10,23 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
+@media (min-width: 768px){
     body{ padding: 4% 20% }
+}
+
+@media (max-width: 767px ){
+    body { padding: 8% 5% }
+}
+
+
+body { background-color: #fef1ef }
+h1 { color: white;}
+h2 { color: white;}
+p { color: white;}
+a { color: white; }
+
+
+
 h1 {
     font-size: 84px;
     margin-bottom: 64px;

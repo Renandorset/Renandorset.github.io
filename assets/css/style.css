@@ -10,3 +10,5 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 body{ padding: 4% 20% }
+body { background-color: lightgreen; }
+a { color: darkgreen; }
