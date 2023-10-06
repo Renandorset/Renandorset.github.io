@@ -1,4 +1,5 @@
 /*  ============= WEB BROWSER RESETS ============ */
+
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -10,6 +11,7 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
+body { padding: 4% 20% }
 @media (min-width: 768px){
     body{ padding: 4% 20% }
 }
@@ -19,7 +21,7 @@ input, button, textarea, select { font: inherit }
 }
 
 
-body { background-color: #fef1ef }
+body { background-color: purple; }
 h1 { color: white;}
 h2 { color: white;}
 p { color: white;}
