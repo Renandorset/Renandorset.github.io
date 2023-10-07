@@ -1,11 +1,15 @@
 /*Images */
 body { padding: 4% 20% }
-h1 {
+h1,p{
     color:blue;
 }
-p {
-    color:blue;
+body { 
+    border: 2px solid #000;
+    margin: 0px;
+    padding: 4% 20%;
+    
 }
+
 img{
     margin-bottom: 42px;
     /*Drop shadow effect at right and bottom of image */

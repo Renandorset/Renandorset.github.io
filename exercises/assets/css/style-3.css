@@ -13,7 +13,14 @@ input, button, textarea, select { font: inherit }
 @media (min-width: 768px){
     body{ padding: 4% 20% }
 }
-body { padding: 4% 20% }
+
+
+body { 
+    border: 2px solid #000;
+    margin: 0px;
+    padding: 4% 20%;
+    
+}
 
 body {
     background: linear-gradient(to bottom, antiquewhite, lightgreen);
