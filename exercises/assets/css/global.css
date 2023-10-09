@@ -10,18 +10,14 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ====== PADDING AROUND CONTENT ======  */
-body { 
-    border: 2px solid #000;
-    margin: 0px;
-    padding: 4% 20%;
-    
-}
-@media (min-width: 768px){
-    body{ padding: 4% 20% }
-}
+
+/*constants for all those pages*/
+
+body { padding: 4% 20%}
+@media (min-width: 768px ){
+    body { padding: 5% 5% }
+    }
 
 @media (max-width: 767px ){
     body { padding: 5% 5% }
 }
-body { background-color: lightgreen; }
-a { color: darkgreen; }

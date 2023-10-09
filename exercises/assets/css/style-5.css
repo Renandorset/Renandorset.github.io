@@ -3,7 +3,10 @@ body {
     border: 2px solid #000;
     margin: 0px;
     padding: 4% 20%;
-    
+    background-color: greenyellow;
+}
+.image-with-shadow {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 img{
     margin-bottom: 32px;

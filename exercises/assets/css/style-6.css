@@ -3,12 +3,15 @@ body {
     border: 2px solid #000;
     margin: 0px;
     padding: 4% 20%;
-    
+    background-color: #fd9242;
 }
 img{
     margin-bottom: 32px;
+    width: 400px;
+    height: 400px;
     /*Soften cornes of images */
     border-radius: 15px ;
+
 }
 .container{
     width: 600px;
