@@ -1,10 +1,22 @@
 section > * { margin-left: 0 }
 
+/* == FLEXBOX PARENT CONTAINER == */
+.container-flexbox {
+    display: flex;
+}
 .bono, .edge, .adam, .larry {
     padding: 20px;
 	margin-bottom: 42px;
-    width: 220px;
+    width: 25%;
+
 }
+
+/* == FLEXBOX PARENT CONTAINER == */
+.container-flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
 
 /* Headings */
 .bono h3, .edge h3, .adam h3, .larry h3 {
@@ -29,3 +41,4 @@ section > * { margin-left: 0 }
 
 .edge h3, .edge p { color: #000 }
 .larry h3, .larry p { color: #000 }
+
