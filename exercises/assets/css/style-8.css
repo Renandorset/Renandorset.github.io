@@ -20,9 +20,6 @@ input, button, textarea, select { font: inherit }
 /* Mobiles */
 @media (max-width:767px) { body { padding: 12% 8% } }
 
-/* Div selector with properties and values */
-
-
 
 /* ==== Headings ==== */
 
@@ -32,6 +29,7 @@ h1 {
     text-align: center;
     letter-spacing: -1px;
     margin-bottom: 64px;
+    margin-top: -120px;
 }
 
 h3 {
@@ -48,33 +46,35 @@ p {
     line-height: 1.7
 }
 
+
 .bono {
     background-color: #4081ec;
-    padding: 12px; 
-    margin-bottom: 40px; 
-    width: 220px 
+    padding: 12px;
+    margin-bottom: 40px;
+    width: 220px
 }
 
 .edge {
     background-color: #ffbb33;
-    padding: 12px; 
-    margin-bottom: 40px; 
-    width: 220px 
+    padding: 12px;
+    margin-bottom: 40px;
+    width: 220px
 }
 
 .adam {
     background-color: #f73345;
-    padding: 12px; 
-    margin-bottom: 40px; 
-    width: 220px 
+    padding: 12px;
+    margin-bottom: 40px;
+    width: 220px
 }
 
 .larry {
     background-color: #e0e0e0;
-    padding: 12px; 
-    margin-bottom: 40px; 
-    width: 220px 
+    padding: 12px;
+    margin-bottom: 40px;
+    width: 220px
 }
+
 .bono h3,
 .bono p,
 .adam h3,
