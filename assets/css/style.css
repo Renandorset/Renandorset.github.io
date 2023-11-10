@@ -25,10 +25,6 @@ body {
     border-color:red; /* or whatever colour */
     border-style:solid; /* or whatever style */
 }
-#content:before {top:0;left:0;border-width: 1px 0 0 1px}
-#content:after {top:0;right:0;border-width: 1px 1px 0 0}
-#content>:first-child:before {bottom:0;right:0;border-width: 0 1px 1px 0}
-#content>:first-child:after {bottom:0;left:0;border-width: 0 0 1px 1px}
 .image-with-shadow {
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
