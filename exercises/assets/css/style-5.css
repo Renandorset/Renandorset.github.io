@@ -1,0 +1,57 @@
+/*Images */
+body { 
+    border: 2px solid #000;
+    margin: 0px;
+    padding: 4% 20%;
+    background-color: greenyellow;
+}
+h1 {
+    font-size: 84px;
+    font-size: calc(48px + (84 - 48) * ((100vw - 320px) / (1600 - 320)));
+}
+
+h2 { 
+    font-size: 24px;   
+    font-size: calc(18px + (26 - 18) * ((100vw - 320px) / (1600 - 320)));
+
+}
+
+h3 {
+    font-size: 52px;
+    font-size: calc(32px + (38 - 32) * ((100vw - 320px) / (1600 - 320)));
+
+}
+
+p {
+    font-size: 20px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+.image-with-shadow {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+img{
+    margin-bottom: 32px;
+    /*Soften cornes of images */
+    border-radius: 15px ;
+}
+.container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Passive link styles */               
+a:link, a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: #006600;
+    border-bottom: solid 2px #006600;
+} 
+                                        
+/* Interactive link styles */              
+a:hover, a:focus, a:active {
+    text-decoration: none; 
+    padding-bottom: 2px;
+    color: #f26f21;
+    border-bottom: solid 2px blue;
+}
