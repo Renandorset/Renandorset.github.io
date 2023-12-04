@@ -1,0 +1,50 @@
+/* Add your custom CSS here */
+
+header.theme-dark { background-color: var(--trend-700) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trend-900) }
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--green-400) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { background-color: var(--green-400) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { color: var(--black-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--green-400) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--black-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { border-color: var(--green-400) }
+header.theme-dark h1 span.highlight { color: var(--green-400) }
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--green-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--green-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--green-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--green-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--green-400) }
+
+
+.section-selector-1.theme-dark { background-color: var(--trend-900) }
+.section-selector-1.theme-dark .cols-background .col-3 { background-color: var(--trend-700) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--green-400) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--green-400) }
+
+.section-selector-1 .col-1 h2 span.highlight { color: var(--green-400) }
+
+
+
+
