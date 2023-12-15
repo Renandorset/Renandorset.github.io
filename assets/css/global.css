@@ -15,8 +15,8 @@ input, button, textarea, select { font: inherit }
 
 body { padding: 4% 20% }
 
-body { background-color: rgb(23, 80, 222) }  
-h2, p { color: blue }
+body { background-color: rgb(45, 76, 156) }  
+h2, p { color: black }
 
 /* ====== PADDING AROUND CONTENT ======  */
 
@@ -38,7 +38,7 @@ h1 {
     letter-spacing: -2px;
     margin-bottom: 32px;
     margin-top: 32px;
-    color: blue;
+   
 }
 
 h2 {
