@@ -1,5 +1,6 @@
 /*  ============= WEB BROWSER RESETS ============ */
 * { margin: 0; padding: 0; border: none }
+
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
@@ -9,41 +10,35 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
-/* ================= ENDS ================ */
 
-/* ====== PADDING AROUND WEB PAGE BODY CONTENT ===== */
-body {padding: 4% 20%}
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
 
+body { padding: 4% 20% }
 
-/* ===== PADDING AROUND SECTION CONTENT =====*/
+body { background-color: rgb(23, 80, 222) }  
+h2, p { color: blue }
 
-section { padding: 4% 20%}
+/* ====== PADDING AROUND CONTENT ======  */
 
+/* Desktops/Laptops */
 
-
-@media (min-width: 768px) { 
-    body { padding: 4% 20% ;
-    background-color: rgb(174, 183, 172);} 
-    
-  }
+@media (min-width: 768px) { body { padding: 4% 20% } }
   
-  /* Mobiles */
-  @media (max-width: 767px) { 
-    body { padding: 12% 8% } 
+/* Mobiles */
+@media (max-width: 767px) { 
+body { padding: 12% 8% } 
   
-  }
-
-body {
-    text-align: center;
-    font-family: sans-serif;
 }
 
+
 h1 {
-    font-size: 78px;
+    font-size: 84px;
+    text-align: center;
     font-weight: normal;
     letter-spacing: -2px;
-    margin-bottom: 12px;
-    line-height: 1.2;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    color: blue;
 }
 
 h2 {
@@ -62,7 +57,23 @@ h3 {
 }
 
 p {
-    font-size: 20px;
-    margin-bottom: 16px;
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
+/*Desktops/Laptops*/
+
+@media (min-width: 768px) { h1 { color: blue;}
+}
+
+/*Mobiles*/
+
+@media (max-width: 767px) { h1 { color: red;}
+}
+
+img {  
+margin-top: 32px;
+margin-bottom: 32px;   
+}
