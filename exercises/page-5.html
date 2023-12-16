@@ -14,8 +14,26 @@
      <link rel="stylesheet" href="assets/css/style-5.css" />
 
   
+   <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6GKY4C5HED"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      </head>
+    gtag('config', 'G-6GKY4C5HED');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/site.webmanifest">
+
+    <!-- Styles for Cookie Consent Popup Message  -->
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+    </head>
+
+    
 
     <body id="top-of-page">
       <h1>Ireland's Top Five Visitor Attractions</h1>
@@ -141,5 +159,23 @@
       <p><a href="../index.html">Back to Home page</a></p>
 
     <p><a href="#top-of-page">Return to top of page</a></p>
+
+       <!-- JavaScript for Cookie Consent Popup Message -->
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+       window.cookieconsent.initialise({
+            "palette": {
+               "popup": {
+                    "background": "#000"
+               },
+               "button": {
+                   "background": "#f1d600"
+               }
+            },
+           "content": {
+               "href": "privacy.html"
+            }
+        });
+        </script>
   </body>
 </html>
