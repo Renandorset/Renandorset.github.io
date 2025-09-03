@@ -20,6 +20,8 @@ h2, p { color: #38a169 }
 
 /* ====== PADDING AROUND CONTENT ======  */
 
+
+
 /* Desktops/Laptops */
 
 @media (min-width: 768px) { body { padding: 4% 20% } }

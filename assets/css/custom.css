@@ -1,4 +1,8 @@
 /* Add your custom CSS here */
+.small-logo {
+  width: 600px;
+  height: 110px;
+}
 
 header.theme-dark { background-color: var(--trend-700) }
 nav.theme-dark,
